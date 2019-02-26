@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div>
+
+        <div id="header">
+            <h1>CrystalsCollector!</h1>
+        </div>
+
+        <div id="instructions">
+            <p>
+                You will be given a random number at the start of the game.<br><br>
+                There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.<br><br>
+                You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.<br><br>
+                the value of each crystal is hidden from you until you click on it.<br><br>
+                Each time when the game starts, the game will change the values of each crystal.
+
+            </p>
+        </div>
+
+        <div id="randomNum">
+            <span id="ranNum"></span>
+        </div>
+        <div id="score">
+            Wins: <span id="wintext"></span><br>
+            Losses: <span id="losstext"></span>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div id="crystal1" class="crystalImage"><img src="assets/images/crystal-blue.jpg" alt="blue"/></div>
+        <div id="crystal2" class="crystalImage"><img src="assets/images/crystal-red.jpg" height="150px" alt="red"/></div>
+        <div id="crystal3" class="crystalImage"><img src="assets/images/crystal-purple.jpg" height="150px" width="150px" alt="purple"/></div>
+        <div id="crystal4" class="crystalImage"><img src="assets/images/crystal-unicorn.jpg" height="150px" alt="unicorn"/></div>
+
+        <div class="clearfix"></div>
+
+        <div id="scoreHeading">
+            Your total score is:
+        </div>
+        <div id="totalScore">
+            <span id="totScore"></span>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>

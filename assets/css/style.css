@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-image: url("../images/wood.jpeg");
+    margin: 3px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div {
+    margin: 3px;
+}
+#header {
+    background-color: #bf7439;
+    width: 300px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+#instructions {
+    background-color: #f8e6d0;
+    width: 500px;
+    height: 300px;
+    color: green;
+    font-size: 18px;
+}
+#randomNum {
+    background-color:green;
+    color: purple;
+    font-size: 38px;
+    width: 250px;
+    height: 125px;
+    float: left;
+}
+#score {
+    background-color:rgb(84, 236, 236);
+    color: black;
+    width: 125px;
+    height: 125px;
+    float: left;
+}
+.crystalImage {
+    float: left
+}
+#scoreHeading {
+    background-color: teal;
+    width: 260px;
+    height: 30px;
+    color:white;
+}
+#totalScore {
+    background-color: teal;
+    width: 260px;
+    height: 200px;
+
+}

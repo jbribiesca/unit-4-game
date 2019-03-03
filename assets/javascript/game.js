@@ -34,11 +34,13 @@ $(document).ready(function() {
 
         if (totalScore === randomNumber) {
             wins++;
+            alert("You win!")
             $("#wintext").text(wins)
             initializeGame();
         }
         else if (totalScore >= randomNumber) {
             losses++;
+            alert("You lose!")
             $("#losstext").text(losses)
             initializeGame();
         }
